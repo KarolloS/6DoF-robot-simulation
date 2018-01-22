@@ -1,4 +1,4 @@
-# 6DoF-robot-simulation
+# 6DoF robot simulation
 
 Simulation of a manipulator with 6 degrees of freedom in virtual robot experimentation platform [V-Rep](http://www.coppeliarobotics.com/index.html)
 and MatLab. The main goal of this project was evaluation of self derived, analytical solution of inverse kinematics before 
