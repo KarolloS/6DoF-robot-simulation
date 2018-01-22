@@ -1,0 +1,13 @@
+%         % testowy ruch robota
+%         
+%         for i=1:1000
+%             fi(1) = (i/500)
+%             [~] = vrep.simxSetJointTargetPosition(clientID,joint1, fi(1), vrep.simx_opmode_streaming);
+%             vrep.simxSynchronousTrigger(clientID);
+%             fi(2) = (i/900)
+%             [~] = vrep.simxSetJointTargetPosition(clientID,joint2, fi(2), vrep.simx_opmode_streaming);
+%             vrep.simxSynchronousTrigger(clientID);
+%             fi(3) = (i/1000)
+%             [~] = vrep.simxSetJointTargetPosition(clientID,joint3, fi(3), vrep.simx_opmode_streaming);
+%             vrep.simxSynchronousTrigger(clientID);
+%         end
